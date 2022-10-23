@@ -25,5 +25,5 @@ echo “some packages in progress this will take few minutes”
   apt install git -y
   apt install vim
 echo “All packages installed successfully”
-
+Updating my script
 
