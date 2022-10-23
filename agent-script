@@ -1,0 +1,29 @@
+#!/bin/bash 
+#Author: Eunice 
+#Date: 10/23/2022
+
+echo “Start docker installation in progress”
+curl -fsSL https://get.docker.com -o get-docker.sh
+DRY_RUN=1 sudo sh ./get-docker.sh
+
+echo “Docker successfully completed”
+
+#!/bin/bash
+# Author: Eunice
+# Date : 10/23/2022
+# Description : Installation of packages
+
+echo “some packages in progress this will take few minutes”
+  apt install wget -y
+  apt install net-utils -y
+  apt install sysstat -y
+  apt install finger -y
+  apt install gcc -y
+  apt install make -y
+  apt install python3 -y
+  apt install epel-release -y
+  apt install git -y
+  apt install vim
+echo “All packages installed successfully”
+
+
